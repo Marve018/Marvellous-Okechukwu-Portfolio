@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Router>
       <ScrollProvider>
-        <div className=' bg-rgb(5, 5, 39) font-sans'>
+        <div className='bg-white font-sans'>
           <Navbar /> {/* Will include the navber in every page */}
           <Home sectionId='home' />
           <About sectionId='about' />
