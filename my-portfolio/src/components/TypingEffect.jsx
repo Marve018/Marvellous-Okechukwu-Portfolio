@@ -12,8 +12,11 @@ const TypewriterComponent = () => {
               .deleteChars(17)
               .typeString('Backend Engineer')
               .pauseFor(1000)
-              .deleteChars(17)
+              .deleteChars(16)
               .typeString('Web Developer')
+              .pauseFor(1000)
+              .deleteChars(13)
+              .typeString('Bioresources & Agricultural Engineer')
               .pauseFor(1000)
               .deleteAll()
               .start();
