@@ -2,8 +2,8 @@
 // This file contains data used for the portfolio section of the website
 import simple_shell from "../../assets/simple_shell.svg";
 import monty from "../../assets/monty.svg";
-import api from '../../assets/api.png'
-
+import shelter from "../../assets/shelter.png";
+import nutriplan from "../../assets/nutriplan.png";
 
 
 const data = [
@@ -24,10 +24,14 @@ const data = [
                 name: "MongoDB",
                 color: "green",
             },
+            {
+                name: "Cloudinary",
+                color: "Brown",
+            },
         ],
         image: shelter,
         source_code_link: "https://github.com/Marve018/shelter",
-        live_link: ""
+        live_link: "https://shelter-p69u.onrender.com"
     },
     {
         name: "NutriPlan",

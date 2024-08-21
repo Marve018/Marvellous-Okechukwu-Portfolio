@@ -71,7 +71,7 @@ const Home = ({ sectionId }) => {
   
     // Open Resume URL
     const openResumeUrl = () => {
-      const resumeUrl = "";
+      const resumeUrl = "https://drive.google.com/file/d/1tGu__A5QQSGSJXf0rpV3XvNVZvdpQR5e/view?usp=drive_link";
       window.open(resumeUrl, "_blank");
     };
   
