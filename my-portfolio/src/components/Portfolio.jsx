@@ -33,13 +33,13 @@ const ProjectCard =({index, name,description,tags,image,source_code_link,live_li
                         onClick={()=>window.open(live_link,'_blank')}
                         className='bg-gold w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
                         >
-                            <AirplayIcon />
+                            <AirplayIcon color="white" />
                         </div>
                         <div
                         onClick={()=>window.open(source_code_link,'_blank')}
                         className='bg-gold w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
                         >
-                            <Github />
+                            <Github color="white" />
                         </div>
                     </div>
                 </div>
