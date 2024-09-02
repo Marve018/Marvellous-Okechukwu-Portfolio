@@ -71,6 +71,7 @@ export default function Navbar() {
                     }}>
                         <ButtonComponent
                             text='Contact Me'
+                            style={{ color: 'gold' }}
                         />
                     </div>
                 </div>
